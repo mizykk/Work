@@ -47,5 +47,5 @@ from urllib import parse
 
 
 ### 🐹 And more.. 🐹
-import warnings
+import warnings  
 warnings.filterwarnings(action='ignore') : 경고 안보이게
