@@ -8,7 +8,7 @@
 
 ---  
 
-🐼 Pandas 🐼
+### 🐼 Pandas 🐼
 - pandas.read_excel
 - pandas.notnull()
 - pandas.reset_index()
@@ -18,11 +18,11 @@
 - pandas.pivot_table()
 - pandas.apply()
 
-🦊 re 🦊
+### 🦊 re 🦊
 - re.compile()
 - re.sub()
 
-🐰 python 🐰
+### 🐰 python 🐰
 - lambda
 - strip()
 - split()
