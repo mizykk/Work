@@ -4,7 +4,7 @@
 
 [🍎](https://github.com/mizykk/Work/blob/master/Hit_path.ipynb) Hit Path 정제    
 [🍊](https://github.com/mizykk/Work/blob/master/URL_Encoding.ipynb) URL Encoding    
-[🍋](https://github.com/mizykk/Work/blob/master/%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A5%20%26%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A1%E1%86%B9%20%E1%84%8E%E1%85%A1%E1%86%BD%E1%84%80%E1%85%B5.ipynb) 중복제거 & 중복값 찾기  안 나타나는 문제 발생중🤦🏻‍♀️    
+[🍋](https://github.com/mizykk/Work/blob/master/%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%80%E1%85%A5%20%26%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%80%E1%85%A1%E1%86%B9%20%E1%84%8E%E1%85%A1%E1%86%BD%E1%84%80%E1%85%B5.ipynb) 중복제거 & 중복값 찾기 → 안 나타나는 문제 발생중🤦🏻‍♀️    
 
 ---  
 
