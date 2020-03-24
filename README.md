@@ -11,48 +11,49 @@
 ---  
 
 ### 🐰 python 🐰
-- head() : 상위 n개 값만 보이기
-- tail() : 하위 n개 값만 보이기
-- sample() : 랜덤으로 n개 값만 보이기
-- strip() : 문자열 양쪽 공백 제거하기
-- split() : 문자열 나누기
-- replace() : 문자열 변경하기
-- append() : 리스트에 값 추가하기
-- lambda
+`head()` : 상위 n개 값만 보이기
+`tail()` : 하위 n개 값만 보이기
+`sample()` : 랜덤으로 n개 값만 보이기
+`strip()` : 문자열 양쪽 공백 제거하기
+`split()` : 문자열 나누기
+`replace()` : 문자열 변경하기
+`append()` : 리스트에 값 추가하기
+`lambda`
 
 ### 🐼 Pandas 🐼
-import pandas as pd
-- read_csv() : csv파일 불러오기
-- read_excel() : 엑셀(xlsx)파일 불러오기
-- dtypes : 데이터 타입 확인하기
-- notnull() : 결측값 아닌 것만 보여주기
-- reset_index() : 인덱스 초기화
-- merge() : 데이터프레임 합치기
-- concat() : 데이터프레임 합치기
-- DataFrame() : 데이터프레임 만들기
-- fillna() : 결측값 채우기
-- pivot_table() 
-- apply() : 함수 한번에 적용하기
-- drop_duplicates() : 중복제거하기
-- isin() : A가 B안에 들어있는지
-- to_csv() : csv로 내보내기
-- to_excel() : 엑셀(xlsx)파일로 내보내기
+`import pandas as pd`
+`read_csv()` : csv파일 불러오기
+`read_excel()` : 엑셀(xlsx)파일 불러오기
+`dtypes` : 데이터 타입 확인하기
+`notnull()` : 결측값 아닌 것만 보여주기
+`reset_index()` : 인덱스 초기화
+`merge()` : 데이터프레임 합치기
+`concat()` : 데이터프레임 합치기
+`DataFrame()` : 데이터프레임 만들기
+`fillna()` : 결측값 채우기
+`pivot_table()` 
+`apply()` : 함수 한번에 적용하기
+`drop_duplicates()` : 중복제거하기
+`isin()` : A가 B안에 들어있는지
+`to_csv()` : csv로 내보내기
+`to_excel()` : 엑셀(xlsx)파일로 내보내기
 
 ### 🦊 re 🦊
-- re.compile()
-- re.sub() : 문자열 변경하기
+`import re`
+`re.compile()`
+`re.sub()` : 문자열 변경하기
 
 ### 🦋 urllib 🦋
-from urllib import parse
-- parse.urlparse() : Url parsing
-- parse.parse_qs() : query를 파싱해서 딕셔너리로 반환
-- parse.parse_qsl() : query를 파싱해서 리스트로 반환
-- parse.urlencode() : Encoding
+`from urllib import parse`
+`parse.urlparse()` : Url parsing
+`parse.parse_qs()` : query를 파싱해서 딕셔너리로 반환
+`parse.parse_qsl()` : query를 파싱해서 리스트로 반환
+`parse.urlencode()` : Encoding
 
 
 ### 🐹 And more.. 🐹
-`import warnings    
+`import warnings       
 warnings.filterwarnings(action='ignore') : 경고 안보이게`  
   
-`from ast import literal_eval  
+`from ast import literal_eval     
 literal_eval() : 문자열을 딕셔너리로`    
