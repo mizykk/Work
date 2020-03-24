@@ -52,7 +52,7 @@
 
 
 ### 🐹 And more.. 🐹
-`import warnings       
+`import warnings \n       
 warnings.filterwarnings(action='ignore') : 경고 안보이게`  
   
 `from ast import literal_eval     
