@@ -51,8 +51,8 @@ from urllib import parse
 
 
 ### 🐹 And more.. 🐹
-import warnings    
-warnings.filterwarnings(action='ignore') : 경고 안보이게  
+`import warnings    
+warnings.filterwarnings(action='ignore') : 경고 안보이게`  
   
-from ast import literal_eval  
-literal_eval() : 문자열을 딕셔너리로  
+`from ast import literal_eval  
+literal_eval() : 문자열을 딕셔너리로`    
