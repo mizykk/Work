@@ -2,7 +2,7 @@
 
 데이터를 올릴 수는 없지만.. 코드는 정리해서 올리는 곳
 
-[🍎] (https://github.com/mizykk/Work/blob/master/Find_duplicates.ipynb) Find_duplicates : 중복제거 & 중복찾기   
+[🍎](https://github.com/mizykk/Work/blob/master/Find_duplicates.ipynb) Find_duplicates : 중복제거 & 중복찾기   
 [🍊](https://github.com/mizykk/Work/blob/master/Find_values_in_nested_dictionary.ipynb) Find_values_in_nested_dictionary : 딕셔너리에서 값 찾기   
 [🍋](https://github.com/mizykk/Work/blob/master/Find_words_in_sentences.ipynb) Find_words_in_sentences : 문장 속에서 단어 찾기   
 [🍉](https://github.com/mizykk/Work/blob/master/Hit_path.ipynb) Hit_Path : App 이동경로 정제   
