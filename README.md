@@ -52,8 +52,10 @@
 
 
 ### 🐹 And more.. 🐹
-`import warnings \n       
-warnings.filterwarnings(action='ignore') : 경고 안보이게`  
+경고 안보이게   
+`import warnings`       
+`warnings.filterwarnings(action='ignore')`  
   
-`from ast import literal_eval     
-literal_eval() : 문자열을 딕셔너리로`    
+문자열을 딕셔너리로   
+`from ast import literal_eval`   
+`literal_eval()`
