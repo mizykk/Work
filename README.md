@@ -22,21 +22,21 @@
    
 ### 🐼 Pandas 🐼   
 `import pandas as pd`  
-`read_csv()` : csv파일 불러오기  
-`read_excel()` : 엑셀(xlsx)파일 불러오기  
-`dtypes` : 데이터 타입 확인하기  
-`notnull()` : 결측값 아닌 것만 보여주기  
-`reset_index()` : 인덱스 초기화  
-`merge()` : 데이터프레임 합치기  
-`concat()` : 데이터프레임 합치기  
-`DataFrame()` : 데이터프레임 만들기  
-`fillna()` : 결측값 채우기    
-`pivot_table()`   
-`apply()` : 함수 한번에 적용하기    
-`drop_duplicates()` : 중복제거하기    
-`isin()` : A가 B안에 들어있는지    
-`to_csv()` : csv로 내보내기  
-`to_excel()` : 엑셀(xlsx)파일로 내보내기  
+`pd.read_csv()` : csv파일 불러오기  
+`pd.read_excel()` : 엑셀(xlsx)파일 불러오기  
+`df.dtypes` : 데이터 타입 확인하기  
+`pd.notnull()` : 결측값 아닌 것만 보여주기  
+`pd.reset_index()` : 인덱스 초기화  
+`pd.merge(df1, df2, by = , how = )` : 데이터프레임 합치기  
+`pd.concat([df1, df2], axis = )` : 데이터프레임 합치기  
+`pd.DataFrame()` : 데이터프레임 만들기  
+`df.fillna()` : 결측값 채우기    
+`pd.pivot_table()` : 피봇테이블   
+`df.apply()` : 함수 한번에 적용하기    
+`pd.drop_duplicates(['col'], keep = )` : 중복제거하기    
+`.isin()` : A가 B안에 들어있는지    
+`df.to_csv()` : csv로 내보내기  
+`df.to_excel()` : 엑셀(xlsx)파일로 내보내기  
 
 ### 🦊 re 🦊     
 `import re`   
