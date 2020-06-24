@@ -81,20 +81,17 @@ from bs4 import BeautifulSoup`
 `bs.find('div', id = 'id명')` : Id로 찾기  
     
 ### 🐮 Connect with Database 🐮  
-데이터베이스에서 데이터 가져오기    
-`import pymysql  
-from sqlalchemy import create_engine  
-   
-engine = create_engine(f'mysql+pymysql://{user_nm}:{passwd}@{host_url}:{port_num}/{db_name}?charset=utf8')  
-engine_conn = engine.connect()  
-   
-data = pd.read_sql("""  
+데이터베이스에서 데이터 가져오기      
+`import pymysql     
+from sqlalchemy import create_engine`        
+`engine = create_engine(f'mysql+pymysql://{user_nm}:{passwd}@{host_url}:{port_num}/{db_name}?charset=utf8')     
+engine_conn = engine.connect()` : 데이터베이스 연결         
+`data = pd.read_sql("""  
     Query  
-    """, engine_conn)  
-   
-engine_conn.close()`
+    """, engine_conn)` : 테이블 가져오기   
+`engine_conn.close()` : 연결 해제
 
-데이터베이스에 테이블 업로드  
+데이터베이스에 테이블 업로드      
 `engine = create_engine(f'mysql+pymysql://{user_nm}:{passwd}@{host_url}:{port_num}/{db_name}?charset=utf8')  
 engine_conn = engine.connect()  
 data.to_sql(table_name, engine_conn, if_exists='replace', index=None)  
@@ -107,18 +104,15 @@ if_exist = {'replace', 'append', 'fail')
 경고 안 나타나게     
 `import warnings`       
 `warnings.filterwarnings(action='ignore')`  
-     
-    
+       
 멀티프로세싱  
 `if __name__=='__main__':  
     pool = Pool(processes=12)  
     result = pool.map(get_color_name, range(0, len(data)))`  
 
-
 문자열을 딕셔너리로    
 `from ast import literal_eval`   
 `literal_eval()`
-
 
 URL로 이미지 불러오기     
 `from PIL import Image      
