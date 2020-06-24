@@ -62,18 +62,18 @@
 `parse.parse_qsl()` : query를 파싱해서 리스트로 반환  
 `parse.urlencode()` : Encoding  
   
-### 🐹 Datetime 🐹  
-`from datetime import datetime`
+### 🐹 Datetime 🐹    
+`from datetime import datetime`    
 `datetime.datetime.now()` : 현재시각  
 `datetime.date()` : 날짜만 출력  
 `datetime.time()` : 시간만 출력   
 `datetime.strftime()` : datetime을 문자열로 변환해준다.     
-`datetime.strptime(date_string, format)` : 문자열을 datetime으로 변환해준다.    
+`datetime.strptime(date_string, format)` : 문자열을 datetime으로 변환해준다.     
   
 ### 🦊 Crawling 🦊  
 `import requests
-from bs4 import BeautifulSoup`
-`rq = requests.get(url)` : Get request    
+from bs4 import BeautifulSoup`   
+`rq = requests.get(url)` : Get request      
 `html = rq.text` : HTML 가져오기  
 `bs = BeautifulSoup(html, 'html.parser')` : HTML Parsing     
 `bs.find(tag).text` : tag에 해당하는 문자 가져오기  
