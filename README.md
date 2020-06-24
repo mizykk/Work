@@ -10,7 +10,8 @@
 [🍇](https://github.com/mizykk/Work/blob/master/Hit_path.ipynb) Hit_Path : GA hitsPath 정제     
 [🍓](https://github.com/mizykk/Work/blob/master/Movie_check.ipynb) Movie_check : 영화 개봉일이 2개월 이후인지 & 성인영화인지 판단  
 [🍒](https://github.com/mizykk/Work/blob/master/URL_Encoding.ipynb) URL_Encoding : URL 인코딩     
-[🍑](https://github.com/mizykk/Work/blob/master/Word_Cloud.ipynb) Word_Cloud : 워드클라우드    
+[🍑](https://github.com/mizykk/Work/blob/master/Word_Cloud.ipynb) Word_Cloud : 워드클라우드   
+
 ---   
    
 ### 🐰 python 🐰  
