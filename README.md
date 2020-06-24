@@ -9,8 +9,8 @@
 [🍉](https://github.com/mizykk/Work/blob/master/Getting_RGB_values_from_image.ipynb) Getting_RGB_values_from_image : 이미지에서 RGB 추출하기(화장품 색상)  
 [🍇](https://github.com/mizykk/Work/blob/master/Hit_path.ipynb) Hit_Path : GA hitsPath 정제     
 [🍓](https://github.com/mizykk/Work/blob/master/Movie_check.ipynb) Movie_check : 영화 개봉일이 2개월 이후인지 & 성인영화인지 판단  
-[🍒](https://github.com/mizykk/Work/blob/master/URL_Encoding.ipynb) URL_Encoding   
-
+[🍒](https://github.com/mizykk/Work/blob/master/URL_Encoding.ipynb) URL_Encoding : URL 인코딩     
+[🍑](https://github.com/mizykk/Work/blob/master/Word_Cloud.ipynb) Word_Cloud : 워드클라우드    
 ---   
    
 ### 🐰 python 🐰  
@@ -112,10 +112,12 @@ if_exist = {'replace', 'append', 'fail')
 `if __name__=='__main__':  
     pool = Pool(processes=12)  
     result = pool.map(get_color_name, range(0, len(data)))`  
-   
+
+
 문자열을 딕셔너리로    
 `from ast import literal_eval`   
 `literal_eval()`
+
 
 URL로 이미지 불러오기   
 `from PIL import Image
@@ -123,3 +125,21 @@ from io import BytesIO
 response = requests.get(data['palette'][i])  
 img = Image.open(BytesIO(response.content))  
 col = img.load()`    
+
+토큰화 & Stopwords 제거  
+`from tensorflow.keras.preprocessing.text import text_to_word_sequence
+from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+def remove_stopwords(words):
+    words = [w for w in words if w not in stopwords.words('english')]
+    return words
+    
+text_to_word_sequence(x))`  
+  
+복수형을 단수로 만들기   
+`from nltk.stem import WordNetLemmatizer 
+lemm = WordNetLemmatizer()
+emm.lemmatize()`
