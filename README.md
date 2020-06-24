@@ -89,16 +89,9 @@ engine_conn = engine.connect()` : 데이터베이스 연결
 `data = pd.read_sql("""  
     Query  
     """, engine_conn)` : 테이블 가져오기   
-`engine_conn.close()` : 연결 해제
-
-데이터베이스에 테이블 업로드      
-`engine = create_engine(f'mysql+pymysql://{user_nm}:{passwd}@{host_url}:{port_num}/{db_name}?charset=utf8')  
-engine_conn = engine.connect()  
-data.to_sql(table_name, engine_conn, if_exists='replace', index=None)  
-engine_conn.close()  
-engine.dispose()`
-if_exist = {'replace', 'append', 'fail')   
-
+`data.to_sql(table_name, engine_conn, if_exists='replace', index=None)` : 데이터베이스에 테이블 업로드     
+if_exist = {'replace', 'append', 'fail')    
+`engine_conn.close()` : 연결 해제   
 
 ### 🐹 And more.. 🐹   
 경고 안 나타나게     
