@@ -17,7 +17,7 @@
 ### 🐰 python 🐰  
 `len()` : 길이     
 `lower()` : 소문자로  
-`upper()` : 대문자로
+`upper()` : 대문자로   
 `strip()` : 문자열 양쪽 공백 제거하기    
 `split()` : 문자열 나누기    
 `replace()` : 문자열 변경하기     
@@ -33,7 +33,7 @@
 `df.dtypes` : 데이터 타입 확인하기  
 `.head()` : 상위 n개 값만 보이기    
 `.tail()` : 하위 n개 값만 보이기    
-`.sample()` : 랜덤으로 n개 값만 보이기 
+`.sample()` : 랜덤으로 n개 값만 보이기    
 `.unique()` : 고유값  
 `pd.isnull()` : 결측값이 있는 것  
 `pd.notnull()` : 결측값 아닌 것만 보여주기  
@@ -52,7 +52,7 @@
 ### 🦁 re 🦁     
 `import re`   
 `re.compile('exp')`  
-`re.sub('after', 'before')` : 문자열 변경하기 
+`re.sub('after', 'before')` : 문자열 변경하기    
 `re.findall()` : 컴파일 된 정규식과 일치하는 문자를 찾아서 리스트로 반환     
 
 ### 🦋 urllib 🦋  
