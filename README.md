@@ -120,26 +120,24 @@ if_exist = {'replace', 'append', 'fail')
 `literal_eval()`
 
 
-URL로 이미지 불러오기   
-`from PIL import Image
-from io import BytesIO
-response = requests.get(data['palette'][i])  
-img = Image.open(BytesIO(response.content))  
-col = img.load()`    
+URL로 이미지 불러오기     
+`from PIL import Image      
+from io import BytesIO    
+response = requests.get(data   )     
+img = Image.open(BytesIO(response.content))      
+col = img.load()`       
 
 토큰화 & Stopwords 제거      
 `from tensorflow.keras.preprocessing.text import text_to_word_sequence   
 from nltk.corpus import stopwords    
 import nltk   
 nltk.download('stopwords')  
-nltk.download('wordnet')  
-   
-def remove_stopwords(words):  
+nltk.download('wordnet')`  
+`text_to_word_sequence(x))` : 토큰화   
+`def remove_stopwords(words):  
     words = [w for w in words if w not in stopwords.words('english')]  
-    return words  
+    return words` : Stopwords 제거  
       
-text_to_word_sequence(x))`      
-    
 복수형을 단수로 만들기     
 `from nltk.stem import WordNetLemmatizer   
 lemm = WordNetLemmatizer()  
