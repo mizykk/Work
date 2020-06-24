@@ -127,20 +127,20 @@ response = requests.get(data['palette'][i])
 img = Image.open(BytesIO(response.content))  
 col = img.load()`    
 
-토큰화 & Stopwords 제거  
-`from tensorflow.keras.preprocessing.text import text_to_word_sequence
-from nltk.corpus import stopwords
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-
-def remove_stopwords(words):
-    words = [w for w in words if w not in stopwords.words('english')]
-    return words
+토큰화 & Stopwords 제거      
+`from tensorflow.keras.preprocessing.text import text_to_word_sequence   
+from nltk.corpus import stopwords    
+import nltk   
+nltk.download('stopwords')  
+nltk.download('wordnet')  
+   
+def remove_stopwords(words):  
+    words = [w for w in words if w not in stopwords.words('english')]  
+    return words  
+      
+text_to_word_sequence(x))`      
     
-text_to_word_sequence(x))`  
-  
-복수형을 단수로 만들기   
-`from nltk.stem import WordNetLemmatizer 
-lemm = WordNetLemmatizer()
-emm.lemmatize()`
+복수형을 단수로 만들기     
+`from nltk.stem import WordNetLemmatizer   
+lemm = WordNetLemmatizer()  
+emm.lemmatize()`   
